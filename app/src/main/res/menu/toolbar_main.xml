@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/carmera" android:title="相机" android:icon="@drawable/ic_saoyisao" app:showAsAction="ifRoom" android:orderInCategory="100"></item>
+    <item android:id="@+id/search" android:title="搜索" android:icon="@drawable/ic_search" app:showAsAction="ifRoom" android:orderInCategory="100"></item>
+    <item android:id="@+id/plus" android:title="额外" android:icon="@drawable/ic_plus" app:showAsAction="ifRoom" android:orderInCategory="100"></item>
+</menu>

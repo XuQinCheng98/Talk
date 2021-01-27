@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        app:titleMarginTop="10dp"
+        app:titleTextAppearance="@style/ToolbarText"
+        app:title="Beauty"
+        android:paddingTop="10dp"
+        android:background="@color/grary_tB"
+        android:id="@+id/tB_main"
+        app:titleTextColor="#515151"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_toolbar">
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vP_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </androidx.viewpager.widget.ViewPager>
+    <LinearLayout
+        android:id="@+id/ll_bot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bot"
+        android:orientation="horizontal"
+        android:background="@color/grary_tB">
+        <TextView
+            android:textColor="#515151"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/ic_message_clo"
+            android:textSize="@dimen/TxtSz_Bot"
+            android:gravity="center"
+            android:id="@+id/tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_chat"
+            android:layout_weight="1">
+
+        </TextView>
+        <TextView
+            android:textColor="#515151"
+            android:gravity="center"
+            android:text="@string/contacts"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/ic_contacts_un"
+            android:textSize="@dimen/TxtSz_Bot"
+            android:id="@+id/tv_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </TextView>
+        <TextView
+            android:textColor="#515151"
+            android:paddingTop="5dp"
+            android:gravity="center"
+            android:textSize="@dimen/TxtSz_Bot"
+            android:drawableTop="@drawable/ic_me_un"
+            android:id="@+id/tv_me"
+            android:text="@string/tv_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

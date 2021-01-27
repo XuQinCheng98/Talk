@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TxtSz_Wel">50sp</dimen>
+    <dimen name="size_title">30dp</dimen>
+    <dimen name="height_toolbar">50dp</dimen>
+    <dimen name="height_bot">50dp</dimen>
+    <dimen name="TxtSz_Bot">15dp</dimen>
+</resources>
